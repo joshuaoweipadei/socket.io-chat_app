@@ -1,0 +1,20 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Node.js, React and Socket.io chat app",
+  "main": "nodemon server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "clientinstall": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Joshua Oweipadei Bayefa",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
