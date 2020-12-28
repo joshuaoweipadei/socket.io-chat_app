@@ -48,7 +48,7 @@ const ChatBox = ({ messages, userId, receiver }) => {
     <div className="chat-box">
       <div className="chat-wrap">
         <h1>Message</h1>
-        {receiver.id && <h5>Chatting with <span>{receiver.name}</span></h5>}
+        {receiver.id && <h5>Chat with <span>{receiver.name}</span></h5>}
         <div className="chat-messages-container">
           {messageBox}
         </div>

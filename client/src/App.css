@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -15,13 +16,27 @@ li {
 }
 
 .alert{
+  position: fixed;
+  top: 40px;
+  right: 3px;
+  max-width: 320px;
+  width: 100%;
+  z-index: 30;
   border: none;
+  margin: auto;
   border-radius: 4px;
   padding: 14px;
   font-size: 15px;
   text-align: center;
   margin: 15px 15px;
+  transition: all 0.3s ease-in-out;
 }
+@media screen and (max-width: 430px){
+  .alert {
+    max-width: 210px;
+  }
+}
+
 .alert-error{
   background-color: #c90404;
   color: #ffffff;
@@ -38,6 +53,5 @@ li {
 }
 
 .example {
-  font-size: 12px;
-  text-align: center;
+  font-size: 11px;
 }

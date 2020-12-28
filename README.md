@@ -32,14 +32,21 @@ npm run dev
 
 ### To Login
 Use any of the users hardcoded credentials below;
-*User 1*
+
+**User 1**
+
 Email: test@example.com
+
 Password: password
 
-*User 2*
+**User 2**
+
 Email: test2@example.com
+
 Password: password2
 
-*User 3*
+**User 3**
+
 Email: test3@example.com
+
 Password: password3
