@@ -2,7 +2,7 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "Node.js, React and Socket.io chat app",
-  "main": "nodemon server.js",
+  "main": "node server.js",
   "scripts": {
     "start": "node ./server.js",
     "server": "nodemon ./server.js",
