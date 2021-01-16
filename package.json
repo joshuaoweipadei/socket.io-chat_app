@@ -4,10 +4,10 @@
   "description": "Node.js, React and Socket.io chat app",
   "main": "nodemon server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "clientinstall": "npm install --prefix client",
-    "client": "npm start --prefix client",
+    "start": "node ./server.js",
+    "server": "nodemon ./server.js",
+    "clientinstall": "cd client && npm install",
+    "client": "cd client && npm start",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run clientinstall && cd client && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
